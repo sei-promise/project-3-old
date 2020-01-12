@@ -1,12 +1,11 @@
 import React from "react";
+import { Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>This is the first page</h1>
-      <h1>This is the first page</h1>
-      <h1>This is the first page</h1>
+      <Route exact path="/" component={Home} />
     </div>
   );
 }
