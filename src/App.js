@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <h1>This is the first page</h1>
       <h1>This is the first page</h1>
+      <h1>This is the first page</h1>
     </div>
   );
 }
